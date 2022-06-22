@@ -1,1 +1,0 @@
-(Bpertussis:1,Ecoli:1);

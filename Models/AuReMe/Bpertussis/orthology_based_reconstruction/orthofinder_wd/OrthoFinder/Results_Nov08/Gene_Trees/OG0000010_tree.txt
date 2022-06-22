@@ -1,1 +1,0 @@
-(Ecoli_b3980:0.0009525,(Bpertussis_BP3611:5e-07,Bpertussis_BP0007:5e-07):0.183923,Ecoli_b3339:0.0014595);

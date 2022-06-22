@@ -1,1 +1,0 @@
-((Ecoli_b2000:1.15864,Ecoli_b2233:1.83502)n1:0.204239,(Bpertussis_BP2224:1.159,(Bpertussis_BP0529:1.1157,Bpertussis_BP1344:0.72673)n3:0.397209)n2:0.204239)n0;

@@ -1,2 +1,0 @@
-0: Bpertussis.faa
-1: Ecoli.faa

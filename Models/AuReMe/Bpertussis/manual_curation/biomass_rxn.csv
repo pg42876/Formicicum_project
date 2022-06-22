@@ -1,7 +1,0 @@
-reaction_id	ExchangeDeadEnd_Biomass-Compositions
-comment	reaction added to avoid biomass-compositions accumulation
-reversible	false
-linked_gene	
-#reactant/product	#stoichio:compound_id:compart
-reactant	1.0:Biomass-Compositions:c
-product	1.0:Biomass-Compositions:C-BOUNDARY

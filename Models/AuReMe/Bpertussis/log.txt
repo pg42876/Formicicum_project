@@ -1,3 +1,0 @@
-### LOG ###
-aureme --run=Bpertussis --cmd="check_input"
-aureme --run=Bpertussis --cmd="check_input"

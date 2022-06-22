@@ -1,2 +1,0 @@
-0: Pfalciparum.faa
-1: Tgondii.faa
