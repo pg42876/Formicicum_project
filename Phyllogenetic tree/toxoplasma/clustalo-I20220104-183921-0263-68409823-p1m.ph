@@ -1,0 +1,10 @@
+(
+Plasmodium_falciparum:0.20182,
+(
+Phytophthora_infestans:0.09632,
+Phaeodactylum_tricornutum:0.08468)
+:0.03287,
+(
+Toxoplasma_gondii:0.05855,
+Eimeria_tenella:0.06659)
+:0.03656);

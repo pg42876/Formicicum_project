@@ -1,0 +1,9 @@
+species,Yarrowia lipolytica (strain CLIB 122 / E 150),1.0000000031710769E-30,true
+genus,Yarrowia,1.0000000031710769E-30,true
+species,Candida albicans,1.0000000031710769E-30,true
+species,Saccharomyces cerevisiae,1.0000000031710769E-30,true
+species,Candida glabrata (strain ATCC 2001 / CBS 138 / JCM 3761 / NBRC 0622 / NRRL Y-65),1.0000000031710769E-30,true
+species,any,1.0000000031710769E-30,true
+species,Yarrowia lipolytica (strain CLIB 122 / E 150),1.0000000031710769E-30,false
+genus,Yarrowia,1.0000000031710769E-30,false
+species,Candida albicans,1.0000000031710769E-30,false

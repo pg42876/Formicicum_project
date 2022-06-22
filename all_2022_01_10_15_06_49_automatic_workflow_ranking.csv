@@ -1,0 +1,9 @@
+species,Toxoplasma gondii ME49,1.0000000031710769E-30,true
+genus,Toxoplasma,1.0000000031710769E-30,true
+species,Eimeria tenella,1.0000000031710769E-30,true
+species,Phaeodactylum tricornutum,1.0000000031710769E-30,true
+species,Plasmodium falciparum,1.0000000031710769E-30,true
+species,any,1.0000000031710769E-30,true
+species,Toxoplasma gondii ME49,1.0000000031710769E-30,false
+genus,Toxoplasma,1.0000000031710769E-30,false
+species,Plasmodium falciparum,1.0000000031710769E-30,false

@@ -1,0 +1,9 @@
+species,Bordetella pertussis,1.0E-30,true
+genus,Bordetella,1.0E-30,true
+species,Pseudomonas putida,1.0E-30,true
+species,Escherichia coli,1.0E-30,true
+species,Klebsiella pneumoniae,1.0E-30,true
+species,any,1.0E-30,true
+species,Bordetella pertussis,1.0E-30,false
+genus,Bordetella,1.0E-30,false
+species,Pseudomonas putida,1.0E-30,false

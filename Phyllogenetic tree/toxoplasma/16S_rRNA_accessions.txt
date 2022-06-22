@@ -1,0 +1,13 @@
+Toxoplasma gondii -> L24381
+
+
+Eimeria tenella -> KT184354
+
+Plasmodium falciparum  -> PF3D7_0112300
+
+
+Phytophthora infestans  -> NW_003302685
+
+Phaeodactylum tricornutum -> AJ269501
+
+

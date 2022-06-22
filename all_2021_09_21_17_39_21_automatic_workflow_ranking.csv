@@ -1,0 +1,9 @@
+species,Lactobacillus plantarum (strain ATCC BAA-793 / NCIMB 8826 / WCFS1),1.0E-30,true
+genus,Lactobacillus,1.0E-30,true
+species,Bacillus subtilis,1.0E-30,true
+species,Streptococcus thermophilus,1.0E-30,true
+species,Lactococcus lactis,1.0E-30,true
+species,any,1.0E-30,true
+species,Lactobacillus plantarum (strain ATCC BAA-793 / NCIMB 8826 / WCFS1),1.0E-30,false
+genus,Lactobacillus,1.0E-30,false
+species,Bacillus subtilis,1.0E-30,false
