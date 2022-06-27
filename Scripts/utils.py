@@ -74,5 +74,49 @@ class ReconstructionTool(Enum):
     T_GONDII_CURATED = 9
 
 
+def get_genes(xml, tool=None):
+    if tool == 'kbase':
+        return [gene.id.replace('_RS', '_') for gene in xml.genes]
+    if tool == 'carveme':
+        parts = [gene.id.split('_') for gene in xml.genes]
+        return [f'{part[0]}|{part[1]}|{part[2]}_{part[3]}' for part in parts]
+    return [gene.id for gene in xml.genes]
+
+
+def get_reactions(xml, tool=None):
+    if tool == 'merlin_blast':
+        return [reaction.id.split('__')[0] for reaction in xml.reactions]
+    if tool == 'kbase':
+        return [reaction.annotation['seed.reaction'] for reaction in xml.reactions
+                if 'seed.reaction' in reaction.annotation.keys()]
+    if tool == 'aureme':
+        return [reaction.id.split('__')[0] for reaction in xml.reactions]
+    return [reaction.id for reaction in xml.reactions]
+
+
+def get_kegg_reactions(xml, conversion_df, tool=None):
+    reactions = get_reactions(xml, tool=tool)
+    print(f'Found {len(reactions)} reactions.')
+    return conversion_df[(conversion_df['External ID'].isin(reactions)) &
+                         (conversion_df['Source'] == 'KEGG')]['External ID'].tolist()
+
+
+def get_metabolites(xml, tool=None):
+    if tool == 'carveme':
+        return [metabolite.id.replace('__', '#').split('_')[0].replace('#', '__') for metabolite in xml.metabolites]
+    if tool == 'kbase':
+        return [metabolite.id.split('_')[0] for metabolite in xml.metabolites]
+    if tool in ['aureme', 'merlin_blast']:
+        return [metabolite.id.split('__')[0] for metabolite in xml.metabolites]
+    return [metabolite.id for metabolite in xml.metabolites]
+
+
+def get_kegg_metabolites(xml, conversion_df, tool=None):
+    metabolites = get_metabolites(xml, tool=tool)
+    print(f'Found {len(metabolites)} metabolites.')
+    return conversion_df[(conversion_df['External ID'].isin(metabolites)) &
+                         (conversion_df['Source'] == 'KEGG')]['External ID'].tolist()
+
+
 if __name__ == "__main__":
     Utils.get_metabolite_ids("PseudomonasPutida-blast-model.xml")
