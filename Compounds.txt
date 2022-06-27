@@ -1,0 +1,176 @@
+Compound	Name
+C00002	ATP
+C00003	NAD+
+C00008	ADP
+C00011	CO2
+C00014	Ammonia
+C00015	UDP
+C00018	Pyridoxal phosphate
+C00020	AMP
+C00022	Pyruvate
+C00024	Acetyl-CoA
+C00025	L-Glutamate
+C00026	2-Oxoglutarate
+C00033	Acetate
+C00036	Oxaloacetate
+C00037	Glycine
+C00042	Succinate
+C00044	GTP
+C00047	L-Lysine
+C00049	L-Aspartate
+C00062	L-Arginine
+C00063	CTP
+C00064	L-Glutamine
+C00065	L-Serine
+C00068	Thiamin diphosphate
+C00074	Phosphoenolpyruvate
+C00075	UTP
+C00077	L-Ornithine
+C00078	L-Tryptophan
+C00091	Succinyl-CoA
+C00097	L-Cysteine
+C00103	D-Glucose 1-phosphate
+C00105	UMP
+C00108	Anthranilate
+C00109	2-Oxobutanoate
+C00112	CDP
+C00117	D-Ribose 5-phosphate
+C00118	D-Glyceraldehyde 3-phosphate
+C00119	5-Phospho-alpha-D-ribose 1-diphosphate
+C00122	Fumarate
+C00129	Isopentenyl diphosphate
+C00129	Isopentenyl diphosphate (IPP)
+C00130	IMP
+C00141	3-Methyl-2-oxobutanoic acid
+C00149	(S)-Malate
+C00154	Palmitoyl-CoA
+C00169	Carbamoyl phosphate
+C00183	L-Valine
+C00199	D-Ribulose 5-phosphate
+C00227	Acetyl phosphate
+C00233	4-Methyl-2-oxopentanoate
+C00235	Dimethylallyl diphosphate
+C00235	Dimethylallyl diphosphate (DMPP)
+C00237	CO
+C00249	Hexadecanoic acid
+C00251	Chorismate
+C00283	Hydrogen sulfide
+C00295	Orotate
+C00322	2-Oxoadipate
+C00327	L-Citrulline
+C00332	Acetoacetyl-CoA
+C00337	(S)-Dihydroorotate
+C00341	Geranyl diphosphate (GPP)
+C00353	Geranylgeranyl diphosphate (GGPP)
+C00356	(S)-3-Hydroxy-3-methylglutaryl-CoA
+C00407	L-Isoleucine
+C00418	(R)-Mevalonate
+C00437	N-Acetylornithine
+C00438	N-Carbamoyl-L-aspartate
+C00441	L-Aspartate 4-semialdehyde
+C00448	trans,trans-Farnesyl diphosphate (FPP)
+C00593	Sulfoacetaldehyde
+C00624	N-Acetyl-L-glutamate
+C00666	LL-2,6-Diaminoheptanedioate
+C00671	(S)-3-Methyl-2-oxopentanoic acid
+C00680	meso-2,6-Diaminoheptanedioate
+C00688	dTDP-4-dehydro-beta-L-rhamnose
+C00697	Nitrogen
+C00842	dTDP-glucose
+C00876	Coenzyme F420
+C00979	O-Acetyl-L-serine
+C01001	Formylmethanofuran
+C01051	Uroporphyrinogen III
+C01081	Thiamin monophosphate
+C01103	Orotidine 5'-phosphate
+C01107	(R)-5-Phosphomevalonate
+C01250	N-Acetyl-L-glutamate 5-semialdehyde
+C01251	(R)-2-Hydroxybutane-1,2,4-tricarboxylate
+C01274	5-Formyl-5,6,7,8-tetrahydromethanopterin
+C01302	1-(2-Carboxyphenylamino)-1'-deoxy-D-ribulose 5'-phosphate
+C01438	Methane
+C02226	2-Methylmaleate
+C02463	Precorrin 2
+C02504	alpha-Isopropylmalate
+C02612	(R)-2-Methylmalate
+C03082	4-Phospho-L-aspartate
+C03283	L-2,4-Diaminobutanoate
+C03319	dTDP-L-rhamnose
+C03373	Aminoimidazole ribotide
+C03406	N-(L-Arginino)succinate
+C03506	Indoleglycerol phosphate
+C03576	Coenzyme M
+C03576	2-Mercaptoethanesulfonate
+C03794	N6-(1,2-Dicarboxyethyl)-AMP
+C03920	2-(Methylthio)ethanesulfonate
+C03972	2,3,4,5-Tetrahydrodipicolinate
+C04002	(Z)-But-1-ene-1,2,4-tricarboxylate
+C04133	N-Acetyl-L-glutamate 5-phosphate
+C04181	3-Hydroxy-3-methyl-2-oxobutanoic acid
+C04272	(R)-2,3-Dihydroxy-3-methylbutanoate
+C04302	N-(5-Phospho-D-ribosyl)anthranilate
+C04330	5,10-Methenyltetrahydromethanopterin
+C04377	5,10-Methylenetetrahydromethanopterin
+C04411	(2R,3S)-3-Isopropylmalate
+C04488	5-Methyl-5,6,7,8-tetrahydromethanopterin
+C04556	4-Amino-2-methyl-5-(phosphooxymethyl)pyrimidine
+C04628	Coenzyme B
+C04732	5-Amino-6-(1-D-ribitylamino)uracil
+C04752	4-Amino-5-hydroxymethyl-2-methylpyrimidine diphosphate
+C04832	Coenzyme M 7-mercaptoheptanoylthreonine-phosphate heterodisulfide
+C05125	2-(alpha-Hydroxyethyl)thiamine diphosphate
+C05345	beta-D-Fructose 6-phosphate
+C05528	3-Sulfopyruvate
+C05662	Homoisocitrate
+C05773	Cobyrinate
+C05778	Sirohydrochlorin
+C05924	Molybdopterin
+C06006	(S)-2-Aceto-2-hydroxybutanoate
+C06007	(R)-2,3-Dihydroxy-3-methylpentanoate
+C06010	(S)-2-Acetolactate
+C06019	D-arabino-Hex-3-ulose 6-phosphate
+C06032	D-erythro-3-Methylmalate
+C06231	Ectoine
+C06442	N-gamma-Acetyldiaminobutyrate
+C06504	Cob(II)yrinate a,c diamide
+C11536	(2R)-O-Phospho-3-sulfolactate
+C11537	(2R)-3-Sulfolactate
+C11538	Cobalt-sirohydrochlorin
+C11540	Cobalt-precorrin 4
+C11542	Cobalt-precorrin 6
+C11543	Cobalt-dihydro-precorrin 6
+C11545	Cobalt-precorrin 8
+C11907	dTDP-4-oxo-6-deoxy-D-glucose
+C14463	(R)-3-Hydroxy-3-methyl-2-oxopentanoate
+C15972	Enzyme N6-(lipoyl)lysine
+C15973	Enzyme N6-(dihydrolipoyl)lysine
+C16242	Cobalt-precorrin 5A
+C16243	Cobalt-precorrin 5B
+C16244	Cobalt-precorrin 7
+C16255	[Dihydrolipoyllysine-residue acetyltransferase] S-acetyldihydrolipoyllysine
+C16583	(R)-(Homo)2-citrate
+C16588	2-Oxopimelate
+C16589	2-Oxosuberate
+C16597	(-)-threo-Iso(homo)2-citrate
+C16598	(R)-(Homo)3-citrate
+C16600	(-)-threo-Iso(homo)3-citrate
+C17401	Cobalt-factor III
+C18237	Molybdoenzyme molybdenum cofactor
+C18239	Precursor Z
+C19152	Coenzyme F420-1
+C19153	Coenzyme F420-0
+C19154	7,8-Didemethyl-8-hydroxy-5-deazariboflavin
+C19155	(2S)-Lactyl-2-diphospho-5'-guanosine
+C19156	(2S)-2-Phospholactate
+C19848	Adenylated molybdopterin
+C20247	2-(2-Carboxy-4-methylthiazol-5-yl)ethyl phosphate
+C20258	(2S,4S)-4-Hydroxy-2,3,4,5-tetrahydrodipicolinate
+C20345	Isopentenyl phosphate
+C20581	cis-(Homo)2-aconitate
+C20582	cis-(Homo)3-aconitate
+C20784	ADP-5-ethyl-4-methylthiazole-2-carboxylate
+C20847	(R)-Mevalonate 3-phosphate
+C20848	(R)-Mevalonate 3,5-bisphosphate
+C21310	(8S)-3',8-Cyclo-7,8-dihydroguanosine 5'-triphosphate
+C21971	5-Amino-5-(4-hydroxybenzyl)-6-(D-ribitylimino)-5,6-dihydrouracil
+C22453	trans-Anhydromevalonate phosphate
