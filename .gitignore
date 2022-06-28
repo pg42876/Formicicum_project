@@ -142,4 +142,4 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 
-Scripts\Xrefs files\MetaNetX_ids\chem_xref.tsv
+Scripts/Xrefs files/MetaNetX_ids/
