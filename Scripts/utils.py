@@ -94,11 +94,13 @@ def get_reactions(xml, tool=None):
     return [reaction.id for reaction in xml.reactions]
 
 
-def get_kegg_reactions(xml, conversion_df, tool=None):
+def get_cross_reference_reactions(xml, conversion_df, tool=None):
     reactions = get_reactions(xml, tool=tool)
-    print(f'Found {len(reactions)} reactions.')
-    return conversion_df[(conversion_df['External ID'].isin(reactions)) &
-                         (conversion_df['Source'] == 'KEGG')]['External ID'].tolist()
+    metanetx_reactions = conversion_df[(conversion_df['External ID'].isin(reactions))]['Internal ID'].tolist()
+    kegg_reactions = conversion_df[(conversion_df['Internal ID'].isin(metanetx_reactions)) &
+                                   (conversion_df['Source'] == 'KEGG')]['External ID'].tolist()
+    print(f'Found {len(metanetx_reactions)} reactions.')
+    return metanetx_reactions, kegg_reactions
 
 
 def get_metabolites(xml, tool=None):
@@ -111,11 +113,13 @@ def get_metabolites(xml, tool=None):
     return [metabolite.id for metabolite in xml.metabolites]
 
 
-def get_kegg_metabolites(xml, conversion_df, tool=None):
+def get_cross_reference_metabolites(xml, conversion_df, tool=None):
     metabolites = get_metabolites(xml, tool=tool)
-    print(f'Found {len(metabolites)} metabolites.')
-    return conversion_df[(conversion_df['External ID'].isin(metabolites)) &
-                         (conversion_df['Source'] == 'KEGG')]['External ID'].tolist()
+    metanetx_metabolites = conversion_df[(conversion_df['External ID'].isin(metabolites))]['Internal ID'].tolist()
+    kegg_metabolites = conversion_df[(conversion_df['Internal ID'].isin(metanetx_metabolites)) &
+                                     (conversion_df['Source'] == 'KEGG')]['External ID'].tolist()
+    print(f'Found {len(metanetx_metabolites)} reactions.')
+    return metanetx_metabolites, kegg_metabolites
 
 
 if __name__ == "__main__":
