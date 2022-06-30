@@ -12,9 +12,9 @@ from matplotlib.projections import register_projection
 from matplotlib.spines import Spine
 from matplotlib.transforms import Affine2D
 
-from core import Model
-from utils import ReconstructionTool
-from xrefs_converters import ReactionsConverter
+from Scripts.core import Model
+from Scripts.utils import ReconstructionTool
+from Scripts.xrefs_converters import ReactionsConverter
 
 
 class ReactionsAssessor:
@@ -23,7 +23,7 @@ class ReactionsAssessor:
         self.reference_model = reference_model
         self.reference_model_format = reference_model_format
         self.conversion_method = conversion_method
-
+        print('conversion method', self.conversion_method)
         if self.conversion_method == "modelseed":
             self.reactions_converter = ReactionsConverter("Xrefs files/ModelSEED-reactions.csv")
         else:

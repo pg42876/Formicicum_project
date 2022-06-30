@@ -1,7 +1,7 @@
 import json
 import re
 from abc import ABC, abstractmethod
-from utils import ReconstructionTool
+from Scripts.utils import ReconstructionTool
 
 # TODO : identify automatically the database version
 import cobra.io
@@ -197,7 +197,8 @@ class CobraModel(Model):
                 convertable[reaction_id] = reaction_list
             else:
                 not_convertable.append(reaction_id)
-
+        print(convertable)
+        print(not_convertable)
         report = FormatConversionReport()
         report.convertable = convertable
         report.non_convertable = not_convertable

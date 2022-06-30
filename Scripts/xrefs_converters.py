@@ -45,6 +45,7 @@ class XRefsConverter(ABC):
 class MetaNetXCompoundsConverter(XRefsConverter):
 
     def parse_xrefs_file(self, file_path):
+        print('RUNNING PARSE XREFS')
         df = pd.read_csv(file_path)
 
         for i, row in df.iterrows():
@@ -168,6 +169,7 @@ class MetaNetXReactionsConverter(XRefsConverter):
 class ReactionsConverter(XRefsConverter):
 
     def parse_xrefs_file(self, file_path):
+        print('running parse_xrefs_file')
         df = pd.read_csv(file_path)
 
         for i, row in df.iterrows():
