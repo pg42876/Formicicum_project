@@ -120,7 +120,3 @@ def get_cross_reference_metabolites(xml, conversion_df, tool=None):
                                      (conversion_df['Source'] == 'KEGG')]['External ID'].tolist()
     print(f'Found {len(metanetx_metabolites)} reactions.')
     return metanetx_metabolites, kegg_metabolites
-
-
-if __name__ == "__main__":
-    Utils.get_metabolite_ids("PseudomonasPutida-blast-model.xml")
