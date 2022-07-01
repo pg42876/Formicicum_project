@@ -120,3 +120,11 @@ def get_cross_reference_metabolites(xml, conversion_df, tool=None):
                                      (conversion_df['Source'] == 'KEGG')]['External ID'].tolist()
     print(f'Found {len(metanetx_metabolites)} reactions.')
     return metanetx_metabolites, kegg_metabolites
+
+
+def calculate_quality_metrics(tp, fp, fn):
+    precision = tp / (tp + fp)
+    recall = tp / (tp + fn)
+    f1_score = 2 * (precision * recall) / (precision + recall)
+    jaccard_distance = 1 - (tp / (fp + fp + fn))
+    return precision, recall, f1_score, jaccard_distance
