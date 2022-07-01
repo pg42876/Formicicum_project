@@ -36,7 +36,6 @@ for line in total_genes:
 with open('../Results/output_genes.tsv', 'w') as output_file:
     output_file.writelines(output_genes)
 
-output_genes = pd.read_csv('../Results/output_genes.tsv', sep = '\t')
+output_genes = pd.read_csv('../Results/output_genes.tsv', sep = '\t').T
 print(output_genes)
-len(output_genes)
 #
