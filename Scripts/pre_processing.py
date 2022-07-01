@@ -38,4 +38,5 @@ with open('../Results/output_genes.tsv', 'w') as output_file:
 
 output_genes = pd.read_csv('../Results/output_genes.tsv', sep = '\t').T
 print(output_genes)
+
 #
