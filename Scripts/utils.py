@@ -104,7 +104,7 @@ def get_cross_reference_reactions(xml, conversion_df, tool=None):
 
 
 def get_metabolites(xml, tool=None):
-    if tool == 'carveme':
+    if tool in ['carveme', 'merlin_bit']:
         return [metabolite.id.replace('__', '#').split('_')[0].replace('#', '__') for metabolite in xml.metabolites]
     if tool == 'kbase':
         return [metabolite.id.split('_')[0] for metabolite in xml.metabolites]
